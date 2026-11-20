@@ -1,0 +1,26 @@
+# 依赖与构建产物
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.py[cod]
+
+# 运行期数据（本地 SQLite 与素材原件，可按需备份，不入库）
+backend/data/
+storage/
+*.db
+*.db-wal
+*.db-shm
+
+# 环境变量
+.env
+.env.local
+
+# 验证截图（由 frontend/scripts/ui-smoke.mjs 生成）
+.ui-shots/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

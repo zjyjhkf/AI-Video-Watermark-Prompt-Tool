@@ -1,0 +1,32 @@
+# 依赖
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 构建产物
+dist/
+build/
+*.tsbuildinfo
+
+# 运行期数据与本地素材
+backend/data/
+storage/
+*.db
+*.db-wal
+*.db-shm
+
+# 环境变量（保留 .env.example）
+.env
+.env.local
+.env.*.local
+
+# UI 验证截图
+.ui-shots/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
